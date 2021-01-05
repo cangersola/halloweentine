@@ -1,5 +1,5 @@
 // cursor clouds: lovingly inspired by appy-hour.glitch.me
-let mojis = [...'🔮🕸🧿🌙👻'];
+let mojis = [...'🔮🧿🕸🌙👻'];
 
 let started = false;
 let disabled = false;
