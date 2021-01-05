@@ -1,36 +1,32 @@
-- title: snax
-  url: https://snaxreport.com
-  description: 📒 A zine about snacks with original essays, poetry, and illustrations that explore the universal experience of snacking.
-  l1-url: https://snaxreport.com/pdf
-  l1-copy: Buy Issue One
-
-- title: letters to summer
-  url: https://letterstosummer.com
-  description: 💌 A biweekly newsletter written by two best friends about what we’re reading, watching, listening to, and enjoying.
-  l1-url: https://letterstosummer.com/subscribe
+- title: Neap Tide 
+  url: https://tinetinetine.substack.com/
+  description: 💌 A newsletter about death, horror, poetry, and other things I like. 
+  l1-url: https://tinetinetine.substack.com/p/coming-soon
   l1-copy: Subscribe
 
-- title: give with us
-  url: https://givewith.us
-  description: 💸 A platform for shoppers to connect with sales reps who are donating commission to good causes and organizations.
-  l1-url: https://www.thethirlby.com/camp-thirlby-diary/2019/4/23/why-i-built-give-with-us-a-shopping-driven-donation-platform
-  l1-copy: Why I made it
+- title: Graveyard Plums
+  url: https://cargocollective.com/christinexma
+  description: 🍃 A quarantine poetry project.
 
-- title: lickability blog
-  url: https://blog.lickability.com
-  description: 📝 A blog about iOS engineering and small business best practices, with a brand-new look on our website.
-  l1-url: https://lickability.com/blog/our-new-blog/
-  l1-copy: How we built it
+- title: Fox Love
+  url: 
+  description: 🦊 A collection of essays and poetry about heartbreak, anxiety, and being a girl.
+  l1-url: 
+  l1-copy: 
 
-- title: laustrology
-  url: https://laustrology.com
-  description: 🔮 An experimental, no-bullshit astrology website with monthly horoscopes written by Laura Tormos.
+- title: The Patron Saint of Crying in Public
+  url: 
+  description: 🍯 My first chapbook
+  l1-url: 
+  l1-copy: 
 
-- title: other stuff
-  description: 🌷 I designed and built websites for some nice people that I like.
-  l1-url: https://dylanjedwards.com
-  l1-copy: ✿ dylan edwards
-  l2-url: https://summerfarah.com
-  l2-copy: ✿ summer farah
-  l3-url: https://cassieburge.glitch.me
-  l3-copy: ✿ cassie burge
+- title: Other Writing
+  description: 🌷 Some of my essays and poetry online.
+  l1-url: https://medium.com/@christineangersola
+  l1-copy: My poetry on Medium
+  l2-url: https://typecastjournal.wordpress.com/2017/12/14/buckingham-by-christine-angersola/
+  l2-copy: Buckingham
+  l3-url: https://www.crabfatmagazine.com/wp-content/uploads/Crab-Fat-Magazine-5.pdf
+  l3-copy: The Patron Saint of Crying in Public (Pushcart Prize Nominated - 2015) 
+  l4-url: https://issuu.com/nomansjournal/docs/nomans_journal_one
+  l4-copy: A Bottleful of Medicine Helps the Down Go Sugar 
