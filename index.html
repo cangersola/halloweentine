@@ -1,0 +1,49 @@
+---
+title: jillian g. meehan
+layout: home
+description: hi, I’m jillian.
+bio: I’m a Project Manager at [Lickability](https://lickability.com), a small software
+  studio in New York. I also sometimes make zines, newsletters, and websites like
+  this one. Find me online somewhere, if you want.
+---
+
+<div class="container">
+  <section class="head">
+    <h1>hi, I’m Jillian Meehan</h1>
+    {{ page.bio | markdownify }}
+    <nav>
+      {% include nav.html %}
+    </nav>
+  </section>
+
+
+  <section class="work">
+    <div class="flex">
+      {% for item in site.data.work %}
+      <div class="item">
+        {% if item.url %}
+          <h2><a class="link-with-arrow" href="{{ item.url }}">{{ item.title }}</a></h2>
+        {% else %}
+          <h2>{{ item.title }}</h2>
+        {% endif %}
+        <p>{{ item.description | markdownify }}</p>
+        {% if item.l1-url %}
+          <div class="links">
+            <a aria-label="{{ item.l1-copy }}" role="link" class="gradient-link" href="{{ item.l1-url }}" onclick="fathom.trackGoal('{{ item.goal-code }}', 0);">{{ item.l1-copy }}</a>
+          </div>
+        {% endif %}
+        {% if item.l2-url %}
+          <div class="links">
+            <a aria-label="{{ item.l2-copy }}" role="link" class="gradient-link" href="{{ item.l2-url }}" onclick="fathom.trackGoal('{{ item.goal-code }}', 0);">{{ item.l2-copy }}</a>
+          </div>
+        {% endif %}
+        {% if item.l3-url %}
+          <div class="links">
+            <a aria-label="{{ item.l3-copy }}" role="link" class="gradient-link" href="{{ item.l3-url }}" onclick="fathom.trackGoal('{{ item.goal-code }}', 0);">{{ item.l3-copy }}</a>
+          </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
